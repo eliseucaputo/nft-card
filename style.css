@@ -1,0 +1,117 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Outfit', sans-serif;
+	background: hsl(217, 54%, 11%);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+main {
+	background: hsl(216, 50%, 16%);
+	width: 270px;
+	height: 460px;
+	border-radius: 11px;
+}
+
+div {
+	width: 87%;
+	margin: 0 auto;
+}
+
+h4 {
+	margin-top: 15px;
+	color: white;
+	font-weight: 550;
+}
+
+h4:hover {
+	color: hsl(178, 100%, 50%);
+	cursor: pointer;
+}
+
+.p1 {
+	padding-top: 10px;
+	font-size: 0.9em;
+	color: hsl(215, 51%, 70%);
+	font-weight: 300;
+}
+
+.p2 {
+	color: hsl(178, 100%, 50%);
+	font-size: 0.9em;
+}
+
+.p3 {
+	font-size: 0.8em;
+	color: hsl(215, 51%, 70%);
+	font-weight: 300;
+}
+
+main img.img1 {
+	width: 100%;	
+	margin-top: 18px;
+	border-radius: 8px;
+}
+
+main .img1:hover{
+	cursor: pointer;
+	filter: opacity(50%) drop-shadow(0 0 0 hsl(178, 100%, 50%));
+	-webkit-filter: opacity(50%) drop-shadow(0 0 0 hsl(178, 100%, 50%));
+}
+
+.eth {
+	width: 100%;
+	display: flex;
+	margin-top: 20px;
+
+}
+
+.icon-eth {
+	padding-right: 5px;
+	width: 10px;
+	height: 16px;
+	margin-top: 2px;
+}
+
+.clock {
+	margin-left: 52px;
+	padding-right: 4px;
+	width: 15px;
+	height: 15px;
+	margin-top: 1px;
+}
+
+.creator {
+	width: 100%;
+	margin-top: 25px;
+	border-top: 1px solid hsl(215, 32%, 27%);
+	display: flex;
+}
+
+.creator img {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 32px;
+	height: 32px;
+}
+
+.creator p {
+	margin-top: 18px;
+	margin-left: 10px;
+}
+
+span {
+	color: white;
+}
+
+span:hover {
+	color: hsl(178, 100%, 50%);
+	cursor: pointer;
+}
